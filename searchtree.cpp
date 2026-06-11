@@ -9,7 +9,7 @@ public:
     Node *leftchild;
     Node *rightchild;
 
-    // constructor for the node class
+    // constructor for the node xclass
     Node(string i, Node *l, Node *r)
     {
         info = i;
@@ -17,3 +17,5 @@ public:
         rightchild = r;
     }
 };
+
+class BinaryTree
