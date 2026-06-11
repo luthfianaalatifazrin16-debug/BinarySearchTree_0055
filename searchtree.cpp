@@ -41,3 +41,9 @@ public:
         Node *currentNode = NULL;
 
         search(element, parent, currentNode);
+
+        if (parent == NULL)
+        {
+            ROOT = newNode;
+            return;
+        }
